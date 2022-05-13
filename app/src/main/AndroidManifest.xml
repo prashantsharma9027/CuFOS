@@ -10,7 +10,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CuFOS">
         <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".FrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SamosaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreativeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CornerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PunjabiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ParathaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShopActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".Splashscreen"
