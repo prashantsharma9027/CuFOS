@@ -8,14 +8,13 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-    ImageView ff, shakes, thali, ice, nv , prantha , juice , imageViewProfile,imageViewShops;
+    ImageView ff, shakes, thali, ice, nv , prantha , juice , imageViewProfile,imageViewShops,imageViewSupport;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
         setContentView (R.layout.activity_main);
-
         ff = findViewById (R.id.ff);
         shakes = findViewById (R.id.shakes);
         thali = findViewById (R.id.thali);
@@ -25,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         juice = findViewById (R.id.juice);
         imageViewProfile = findViewById (R.id.imageViewProfile);
         imageViewShops = findViewById (R.id.imageViewShops);
+        imageViewSupport = findViewById (R.id.imageViewSupport);
+
 
         ff.setOnClickListener (new View.OnClickListener () {
             @Override
@@ -80,14 +81,20 @@ public class MainActivity extends AppCompatActivity {
                                 startActivity (intent);
                             }
                         });
-        imageViewShops.setOnClickListener (new View.OnClickListener () {
+                        imageViewShops.setOnClickListener (new View.OnClickListener () {
                             @Override
                             public void onClick(View view) {
                                 Intent intent = new Intent (MainActivity.this, ShopActivity.class);
                                 startActivity (intent);
                             }
                         });
-
+                        imageViewSupport.setOnClickListener (new View.OnClickListener () {
+                            @Override
+                            public void onClick(View view) {
+                                Intent intent = new Intent (MainActivity.this, SupportActivity.class);
+                                startActivity (intent);
+                           }
+                        });
 
                     }
                 }
