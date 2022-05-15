@@ -1,14 +1,15 @@
 package com.example.cufos;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class MainActivity extends AppCompatActivity {
-    ImageView ff, shakes, thali, ice, nv , prantha , juice , imageViewProfile,imageViewShops,imageViewSupport;
+    ImageView ff, shakes, thali4, ice, nv , prantha , juice , imageViewProfile,imageViewShops,imageViewSupport;
+    ImageView cartBtn;
 
 
     @Override
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView (R.layout.activity_main);
         ff = findViewById (R.id.ff);
         shakes = findViewById (R.id.shakes);
-        thali = findViewById (R.id.thali);
+        thali4 = findViewById (R.id.thali4);
         ice = findViewById (R.id.ice);
         nv = findViewById (R.id.nv);
         prantha = findViewById (R.id.prantha);
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         imageViewProfile = findViewById (R.id.imageViewProfile);
         imageViewShops = findViewById (R.id.imageViewShops);
         imageViewSupport = findViewById (R.id.imageViewSupport);
+        cartBtn = findViewById (R.id.cartBtn);
 
 
         ff.setOnClickListener (new View.OnClickListener () {
@@ -41,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent (MainActivity.this, SamosaActivity.class);
                 startActivity (intent);
             } });
-                thali.setOnClickListener (new View.OnClickListener () {
+                thali4.setOnClickListener (new View.OnClickListener () {
                     @Override
                     public void onClick(View view) {
                         Intent intent = new Intent (MainActivity.this, CornerActivity.class);
@@ -95,6 +97,13 @@ public class MainActivity extends AppCompatActivity {
                                 startActivity (intent);
                            }
                         });
+                        cartBtn.setOnClickListener (new View.OnClickListener () {
+                            @Override
+                            public void onClick(View view) {
+                                Intent intent = new Intent (MainActivity.this, AddcartActivity.class);
+                                startActivity (intent);
+                            }
+                         });
 
                     }
                 }

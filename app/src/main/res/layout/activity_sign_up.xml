@@ -52,7 +52,7 @@
                     android:background="#050505" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName"
+                    android:id="@+id/userNameET"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="23dp"
@@ -65,19 +65,19 @@
                     android:padding="10dp" />
 
                 <EditText
-                    android:id="@+id/editTextNumberSigned"
+                    android:id="@+id/phoneET"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     android:background="@drawable/backgroundeditview"
                     android:ems="10"
                     android:gravity="center"
-                    android:hint="+91-876454566"
+                    android:hint="+91 __________"
                     android:inputType="numberSigned"
                     android:padding="10dp" />
 
                 <EditText
-                    android:id="@+id/editTextTextEmailAddress3"
+                    android:id="@+id/emailET"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
@@ -89,7 +89,7 @@
                     android:padding="10dp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPassword"
+                    android:id="@+id/passwordET"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -102,7 +102,7 @@
                     android:padding="10dp" />
 
                 <Button
-                    android:id="@+id/btnregister"
+                    android:id="@+id/signupBtn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"

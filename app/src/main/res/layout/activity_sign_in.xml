@@ -76,7 +76,7 @@
                     android:padding="10dp" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/loginBtn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"

@@ -252,7 +252,7 @@
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="15dp"
-                    app:srcCompat="@drawable/fr" />
+                    app:srcCompat="@drawable/frr1" />
 
                 <TextView
                     android:id="@+id/textView4"
