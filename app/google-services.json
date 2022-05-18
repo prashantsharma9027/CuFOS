@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "50965539432",
+    "project_id": "cufos-39035",
+    "storage_bucket": "cufos-39035.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50965539432:android:d4874c7c6c5cc3481069dd",
+        "android_client_info": {
+          "package_name": "com.example.cufos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50965539432-76gana990rrgsk06l64cd5l6kke4lim2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-U3SxNBWstSrapcRPkmjymjhxLgZPoMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50965539432-76gana990rrgsk06l64cd5l6kke4lim2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
